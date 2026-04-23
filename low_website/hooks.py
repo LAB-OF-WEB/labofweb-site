@@ -5,6 +5,27 @@ app_description = "lab of web website"
 app_email = "nasrinayisha429@gmail.com"
 app_license = "unlicense"
 
+fixtures = [
+
+    {
+        "doctype": "Builder Page",
+        "filters": [
+            ["name", "in", [
+                "page-b9a2bb46",
+                "page-89cf1a9b",
+                "page-92120158",
+                "page-66b96f7c",
+                "page-ccc7de11",
+                "page-7d8f1367",
+                "page-0f03ecbf",
+                "page-f6051223"
+            ]]
+        ]
+    },
+
+
+]
+
 # Apps
 # ------------------
 
